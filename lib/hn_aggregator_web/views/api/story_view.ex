@@ -7,9 +7,11 @@ defmodule HnAggregatorWeb.StoryView do
     }
   end
 
-  def story_json(story) do
+  defp story_json(story_tuple) do
+    {id, story} = story_tuple
+
     %{
-      id: story.id,
+      id: id,
       title: story.title
     }
   end

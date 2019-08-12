@@ -3,7 +3,15 @@ defmodule HnAggregator.Story do
   @enforce_keys [:id, :title]
 
   defstruct [
-    :id, :by, :descendants, :kids, :score, :time, :title, :url
+    :id,
+    :by,
+    :descendants,
+    :kids,
+    :score,
+    :time,
+    :title,
+    :url
   ]
+
   # TODO: @type spec
 end

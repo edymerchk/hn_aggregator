@@ -5,6 +5,6 @@ defmodule HnAggregatorWeb.StoryController do
   alias HnAggregator.StoriesServer
 
   def index(conn, _params) do
-    render conn, "index.json", stories: StoriesServer.get_list()
+    render(conn, "index.json", stories: StoriesServer.get_list())
   end
 end

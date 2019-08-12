@@ -2,25 +2,32 @@ defmodule HnAggregator.StoriesServerTest do
   use HnAggregator.Case, async: true
 
   alias HnAggregator.StoriesServer
+  alias HnAggregator.Story
 
   setup do
     StoriesServer.reset()
     on_exit(fn -> StoriesServer.reset() end)
 
-    :ok
+    story = %Story{id: 123, title: "Title Sample"}
+
+    {:ok, story: story}
   end
 
-  test "can store and retrieve a list of things" do
-    StoriesServer.put("a")
-    StoriesServer.put("b")
+  describe "put/1" do
+    test "can store a story", %{story: story} do
+      StoriesServer.put(story)
 
-    assert(StoriesServer.get_list() == ["b", "a"])
+      assert StoriesServer.get_list() == %{story.id => story}
+    end
   end
 
-  test "is cleared out by reset/0" do
-    StoriesServer.put("a")
-    StoriesServer.reset()
+  describe "reset/0" do
+    test "clears the Agent", %{story: story} do
+      StoriesServer.put(story)
 
-    assert(StoriesServer.get_list() == [])
+      StoriesServer.reset()
+
+      assert StoriesServer.get_story(story.id) == nil
+    end
   end
 end

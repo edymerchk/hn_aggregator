@@ -2,12 +2,12 @@ defmodule HnAggregator.StoriesServer do
   use Agent
 
   def start_link(_initia_state) do
-    Agent.start_link(fn -> [] end, name: __MODULE__)
+    Agent.start_link(fn -> %{} end, name: __MODULE__)
   end
 
   def put(story) do
     Agent.update(__MODULE__, fn state ->
-      [story | state]
+      state |> Map.put(story.id, story)
     end)
   end
 
@@ -16,6 +16,6 @@ defmodule HnAggregator.StoriesServer do
   end
 
   def reset() do
-    Agent.update(__MODULE__, fn _state -> [] end)
+    Agent.update(__MODULE__, fn _state -> %{} end)
   end
 end
