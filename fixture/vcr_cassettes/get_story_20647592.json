@@ -1,0 +1,37 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20647592.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"smsm42\",\"descendants\":99,\"id\":20647592,\"kids\":[20648560,20649487,20649343,20648451,20647875,20649468,20649386,20649164,20648401,20649438,20649366,20648010,20649210,20648131,20648527,20648153,20649027,20648659,20648957,20648244,20649458,20649192,20648129,20648461,20648083,20648245,20647724],\"score\":230,\"time\":1565291597,\"title\":\"Facebook has been granted patent on shadow banning\",\"type\":\"story\",\"url\":\"http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,356,024.PN.&OS=PN/10,356,024&RS=PN/10,356,024\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Thu, 08 Aug 2019 22:24:26 GMT",
+        "server": "nginx",
+        "content-length": "588",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  }
+]
