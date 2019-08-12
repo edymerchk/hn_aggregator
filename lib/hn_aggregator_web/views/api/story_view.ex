@@ -14,7 +14,13 @@ defmodule HnAggregatorWeb.StoryView do
   def story_json(%Story{} = story) do
     %{
       id: story.id,
-      title: story.title
+      by: story.by,
+      descendants: story.descendants,
+      kids: story.kids,
+      score: story.score,
+      time: story.time,
+      title: story.title,
+      url: story.url
     }
   end
 end
