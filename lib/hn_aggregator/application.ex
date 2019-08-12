@@ -9,9 +9,10 @@ defmodule HnAggregator.Application do
     # List all child processes to be supervised
     children = [
       # Start the endpoint when the application starts
-      HnAggregatorWeb.Endpoint
+      HnAggregatorWeb.Endpoint,
       # Starts a worker by calling: HnAggregator.Worker.start_link(arg)
       # {HnAggregator.Worker, arg},
+      {HnAggregator.StoriesServer, []}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
