@@ -21,6 +21,14 @@ defmodule HnAggregator.StoriesServerTest do
     end
   end
 
+  describe "get_story/1" do
+    test "returns the story with an specific id", %{story: story} do
+      StoriesServer.put(story)
+
+      assert StoriesServer.get_story(story.id) == story
+    end
+  end
+
   describe "reset/0" do
     test "clears the Agent", %{story: story} do
       StoriesServer.put(story)

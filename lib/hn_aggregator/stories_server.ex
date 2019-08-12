@@ -15,6 +15,10 @@ defmodule HnAggregator.StoriesServer do
     Agent.get(__MODULE__, fn state -> state end)
   end
 
+  def get_story(id) do
+    Agent.get(__MODULE__, fn state -> state |> Map.get(id) end)
+  end
+
   def reset() do
     Agent.update(__MODULE__, fn _state -> %{} end)
   end
