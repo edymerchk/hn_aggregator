@@ -12,7 +12,8 @@ defmodule HnAggregator.Application do
       HnAggregatorWeb.Endpoint,
       # Starts a worker by calling: HnAggregator.Worker.start_link(arg)
       # {HnAggregator.Worker, arg},
-      {HnAggregator.StoriesServer, []}
+      {HnAggregator.StoriesServer, []},
+      {HnAggregator.StoryRefresherScheduler, []}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
