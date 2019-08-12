@@ -1,5 +1,5 @@
 defmodule HnAggregatorWeb.StoryView do
-  # use HnAggregatorWeb.Web, :view
+  alias HnAggregator.Story
 
   def render("index.json", %{stories: stories}) do
     %{
@@ -11,10 +11,7 @@ defmodule HnAggregatorWeb.StoryView do
     %{story: story_json(story)}
   end
 
-  # TODO: fix story_tuple
-  defp story_json(story_tuple) do
-    {_id, story} = story_tuple
-
+  def story_json(%Story{} = story) do
     %{
       id: story.id,
       title: story.title

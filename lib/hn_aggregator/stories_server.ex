@@ -12,7 +12,9 @@ defmodule HnAggregator.StoriesServer do
   end
 
   def get_list do
-    Agent.get(__MODULE__, fn state -> state end)
+    Agent.get(__MODULE__, fn state ->
+      Enum.map(state, fn {_id, story} -> story end)
+    end)
   end
 
   def get_story(id) do

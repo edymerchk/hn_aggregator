@@ -17,7 +17,20 @@ defmodule HnAggregator.StoriesServerTest do
     test "can store a story", %{story: story} do
       StoriesServer.put(story)
 
-      assert StoriesServer.get_list() == %{story.id => story}
+      assert StoriesServer.get_list() == [story]
+    end
+  end
+
+  describe "get_list/0" do
+    test "returns the list of stories stored", %{story: story} do
+      story_2 = %Story{id: 456, title: "Title Sample 2"}
+
+      StoriesServer.put(story)
+      StoriesServer.put(story_2)
+
+      result = StoriesServer.get_list()
+
+      assert length(result) == 2
     end
   end
 

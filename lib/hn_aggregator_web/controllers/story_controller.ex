@@ -10,6 +10,6 @@ defmodule HnAggregatorWeb.StoryController do
   # TODO: handle 404
   def show(conn, %{"id" => id}) do
     story = String.to_integer(id) |> StoriesServer.get_story()
-    render(conn, "show.json", story: {id, story})
+    render(conn, "show.json", story: story)
   end
 end
