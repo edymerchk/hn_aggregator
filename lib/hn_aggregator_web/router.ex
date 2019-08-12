@@ -13,14 +13,9 @@ defmodule HnAggregatorWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", HnAggregatorWeb do
-    pipe_through :browser
+  scope "/api", HnAggregatorWeb do
+    pipe_through :api
 
-    get "/", PageController, :index
+    resources "/stories", StoryController, only: [:index, :show]
   end
-
-  # Other scopes may use custom stacks.
-  # scope "/api", HnAggregatorWeb do
-  #   pipe_through :api
-  # end
 end

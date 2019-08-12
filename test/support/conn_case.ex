@@ -20,6 +20,7 @@ defmodule HnAggregatorWeb.ConnCase do
       # Import conveniences for testing with connections
       use Phoenix.ConnTest
       alias HnAggregatorWeb.Router.Helpers, as: Routes
+      import HnAggregatorWeb.Router.Helpers
 
       # The default endpoint for testing
       @endpoint HnAggregatorWeb.Endpoint
