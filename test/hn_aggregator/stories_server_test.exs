@@ -2,13 +2,14 @@ defmodule HnAggregator.StoriesServerTest do
   use HnAggregator.Case, async: true
 
   alias HnAggregator.StoriesServer
-  alias HnAggregator.Story
+
+  import HnAggregator.Factory
 
   setup do
     StoriesServer.reset()
     on_exit(fn -> StoriesServer.reset() end)
 
-    story = %Story{id: 123, title: "Title Sample"}
+    story = build(:story)
 
     {:ok, story: story}
   end
@@ -23,7 +24,7 @@ defmodule HnAggregator.StoriesServerTest do
 
   describe "get_list/0" do
     test "returns the list of stories stored", %{story: story} do
-      story_2 = %Story{id: 456, title: "Title Sample 2"}
+      story_2 = build(:story, %{id: 456})
 
       StoriesServer.put(story)
       StoriesServer.put(story_2)
