@@ -12,14 +12,22 @@ defmodule HnAggregator.Application do
       HnAggregatorWeb.Endpoint,
       # Starts a worker by calling: HnAggregator.Worker.start_link(arg)
       # {HnAggregator.Worker, arg},
-      {HnAggregator.StoriesServer, []},
-      {HnAggregator.StoryRefresherScheduler, []}
+      {HnAggregator.StoriesServer, []}
     ]
+
+    workers =
+      if Mix.env() == :test do
+        []
+      else
+        [
+          {HnAggregator.StoryRefresherScheduler, []}
+        ]
+      end
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: HnAggregator.Supervisor]
-    Supervisor.start_link(children, opts)
+    Supervisor.start_link(children ++ workers, opts)
   end
 
   # Tell Phoenix to update the endpoint configuration

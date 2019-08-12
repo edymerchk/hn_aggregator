@@ -8,6 +8,7 @@ defmodule HnAggregator.StoryRefresherTest do
   describe "refresh/0" do
     setup do
       StoriesServer.reset()
+      on_exit(fn -> StoriesServer.reset() end)
       :ok
     end
 
