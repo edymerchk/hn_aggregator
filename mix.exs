@@ -40,7 +40,8 @@ defmodule HnAggregator.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:tesla, "~> 1.2.1"},
-      {:exvcr, "~> 0.10", only: :test}
+      {:exvcr, "~> 0.10", only: :test},
+      {:ex_machina, "~> 2.2", only: :test}
     ]
   end
 end
