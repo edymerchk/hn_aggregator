@@ -1,0 +1,1787 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/topstories.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "[20657398,20653453,20658291,20655710,20658529,20657308,20656680,20658126,20653485,20658214,20658090,20646540,20657224,20655766,20653394,20655017,20656241,20656929,20649504,20658069,20649600,20654706,20653316,20658050,20657466,20656104,20653637,20653942,20657366,20656223,20647646,20653278,20655791,20656992,20652695,20655821,20656155,20657860,20658125,20657054,20649031,20653936,20654625,20655681,20653451,20654981,20649470,20646097,20656713,20643052,20653813,20654885,20657538,20658559,20656156,20643777,20652986,20647197,20652211,20649990,20642885,20652390,20651651,20647289,20650070,20647592,20652145,20651233,20658180,20657531,20656334,20643604,20650748,20643702,20657319,20643603,20650069,20651510,20657262,20656369,20655816,20655726,20645085,20657021,20649247,20641410,20658113,20658318,20650215,20653630,20656607,20654023,20657333,20647313,20643573,20652572,20646841,20655381,20656411,20641424,20656433,20651266,20650647,20648974,20650341,20646350,20643737,20650719,20650212,20656524,20646017,20644038,20644677,20645390,20655477,20650723,20642156,20643535,20640148,20657896,20642824,20648329,20650651,20643928,20651499,20657376,20652945,20655346,20647203,20654356,20645776,20646743,20642423,20657696,20646918,20654624,20654805,20646123,20642777,20649495,20639999,20651756,20657551,20653015,20657529,20650564,20645319,20657404,20639843,20650519,20643417,20647651,20642005,20648240,20640114,20652399,20643706,20644984,20648233,20644165,20635640,20656299,20634409,20650234,20636422,20634522,20640798,20652561,20644919,20645843,20641551,20649241,20636152,20648843,20644393,20652890,20647760,20637849,20642141,20650831,20647061,20649580,20655344,20652637,20653728,20643336,20636432,20641045,20654989,20646674,20644363,20643592,20648525,20652339,20632771,20641500,20655392,20655280,20639325,20641893,20650626,20634100,20636443,20636331,20649627,20634715,20633780,20645938,20654503,20643884,20643645,20632846,20632947,20642721,20638315,20654713,20638158,20640153,20655688,20633081,20639123,20651658,20638662,20651984,20636376,20648740,20648139,20640775,20641593,20647825,20636476,20654897,20635077,20643234,20653751,20635659,20650939,20650981,20650906,20638834,20645243,20633077,20656342,20647795,20639862,20643883,20640941,20636769,20643231,20648366,20654323,20636805,20634825,20649563,20656952,20638838,20650960,20640974,20632942,20638299,20640191,20640776,20632993,20641787,20637879,20634546,20636757,20633638,20643789,20654690,20649256,20649115,20636546,20648814,20651202,20634753,20634092,20648495,20642376,20655099,20641119,20651783,20647680,20650423,20638736,20634506,20652246,20633548,20635100,20654862,20647337,20640083,20645898,20642332,20647844,20648644,20636254,20633883,20634276,20638562,20642920,20655294,20640140,20633510,20645914,20638645,20640378,20651777,20652607,20639359,20647298,20640788,20645344,20637357,20643257,20650014,20633055,20634023,20651387,20647674,20637051,20644126,20635846,20646731,20636305,20651975,20650264,20653591,20649989,20642752,20644553,20646643,20641331,20637483,20642321,20636606,20650538,20644819,20635439,20639130,20638115,20655003,20637970,20641740,20641530,20641451,20643311,20638566,20632468,20635768,20639111,20643378,20651057,20635407,20649663,20648003,20649179,20640373,20634607,20637432,20641042,20643925,20638926,20648575,20644215,20633687,20639331,20633599,20638114,20643635,20639785,20637793,20633607,20641905,20633458,20637798,20644803,20649938,20638015,20644096,20639292,20635965,20634654,20635228,20649069,20636034,20642458,20640372,20648583,20645265,20643459,20648179,20633482,20639963,20647987,20647957,20642675,20632724,20635850,20646983,20639828,20640733,20632471,20633850,20635271,20643160,20634006,20633035,20641831,20635699,20641762,20641761,20642923,20645394,20645267,20644697,20635793,20638071,20637817,20642042,20633021,20644044,20641898,20635342,20639625,20639546,20639240,20639052,20638068,20637896,20637475,20642479,20639863,20642373,20639840,20639799,20642247,20638791,20632562,20638375,20637479,20634674,20644824,20637047,20636980,20636910,20633220,20633923,20635992,20640960,20635775,20640879,20635463,20642998,20635264,20640205,20640178,20639852,20639748,20639332,20633640,20639265,20633410,20638744,20638675,20638305,20637990,20637904,20637570,20641777,20637010,20635990,20633671,20635939,20636683,20636032,20634492,20632519,20635802,20641380,20637189,20643919,20634520,20644018,20633886,20654415,20654670,20646085]",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:07 GMT",
+        "server": "nginx",
+        "content-length": "4393",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20658126.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"tobr\",\"descendants\":8,\"id\":20658126,\"kids\":[20658631,20658648,20658875],\"score\":34,\"time\":1565383572,\"title\":\"Climate crisis, shown directly on power plant, in guerrilla projection\",\"type\":\"story\",\"url\":\"https://cdm.link/2019/08/climate-crisis-laser-projection/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:07 GMT",
+        "server": "nginx",
+        "content-length": "270",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20653453.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"enkiv2\",\"descendants\":184,\"id\":20653453,\"kids\":[20656563,20655521,20654024,20653902,20657541,20653870,20654187,20653823,20654054,20654136,20657084,20656099,20654061,20657754,20653872,20655570,20654910,20655526,20654153,20657129,20656827,20655177,20653856,20655296,20657714,20656883,20655874,20656448,20655508,20656424,20654776,20655960,20657033,20656051,20654052,20654223],\"score\":801,\"time\":1565351720,\"title\":\"Alan Kay's answer to âwhat are some forgotten books programmers should read?â\",\"type\":\"story\",\"url\":\"https://www.quora.com/Experienced-programmers-and-computer-scientists-what-are-some-really-old-or-even-nearly-forgotten-books-you-think-every-new-programmer-should-read/answer/Alan-Kay-11?share=1\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "721",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20655710.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"momentmaker\",\"descendants\":152,\"id\":20655710,\"kids\":[20658564,20656106,20656086,20656082,20656044,20656311,20658747,20656721,20656281,20656115,20657412,20656280,20656696,20657747,20657693,20656892,20656872,20657274,20657731,20656488,20656056,20656621,20657310,20656401],\"score\":267,\"time\":1565367425,\"title\":\"Google to Offer a Best Price Guarantee on Certain Flights\",\"type\":\"story\",\"url\":\"https://www.blog.google/products/flights-hotels/best-prices-for-your-trips/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "474",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20649600.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"tintinnabula\",\"descendants\":0,\"id\":20649600,\"score\":31,\"time\":1565303829,\"title\":\"âTo Get Things More Realâ: An Interview with Ira Glass\",\"type\":\"story\",\"url\":\"https://www.nybooks.com/daily/2019/08/08/to-get-things-more-real-an-interview-with-ira-glass/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "266",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20656241.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"BobbyVsTheDevil\",\"descendants\":147,\"id\":20656241,\"kids\":[20656647,20657602,20658359,20656860,20657278,20657959,20656513,20657001,20657011,20657134,20656790,20656852,20656990,20656638,20657185,20656502,20657676,20657070,20656611,20656632,20657311],\"score\":123,\"time\":1565370303,\"title\":\"âNo One Saw a Thingâ: When a Midwest Town Banded Together to Kill the Town Bully\",\"type\":\"story\",\"url\":\"https://www.thedailybeast.com/no-one-saw-a-thing-when-a-small-midwest-town-banded-together-to-kill-the-town-bully\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "516",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20657366.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"jonbaer\",\"descendants\":5,\"id\":20657366,\"kids\":[20657892,20658153,20657950,20657592],\"score\":37,\"time\":1565377474,\"title\":\"Carla â Open-source simulator for autonomous driving research\",\"type\":\"story\",\"url\":\"http://carla.org/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "235",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20649504.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"wallflower\",\"descendants\":5,\"id\":20649504,\"kids\":[20658848,20650343,20658831],\"score\":9,\"time\":1565303166,\"title\":\"Summer camps use facial recognition so parents can watch from home\",\"type\":\"story\",\"url\":\"https://www.sfgate.com/news/article/Summer-camps-use-facial-recognition-so-parents-14291272.php\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "309",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20657398.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"JabavuAdams\",\"descendants\":57,\"id\":20657398,\"kids\":[20657753,20658201,20657865,20658086,20657797,20658326,20658114,20657998,20657666,20658161,20658368,20657740,20657738],\"score\":185,\"time\":1565377773,\"title\":\"Home Chip Fab\",\"type\":\"story\",\"url\":\"http://sam.zeloof.xyz/category/semiconductor/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "300",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20646540.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"jfk13\",\"descendants\":207,\"id\":20646540,\"kids\":[20655080,20658844,20646633,20655088,20654844,20655937,20655221,20658397,20655877,20654866,20655515,20655267,20656786,20655518,20655299,20655753,20654931,20656392,20655687,20657105],\"score\":301,\"time\":1565285365,\"title\":\"Black Hat: GDPR privacy law exploited to reveal personal data\",\"type\":\"story\",\"url\":\"https://www.bbc.co.uk/news/technology-49252501\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "407",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20657466.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"benryon\",\"descendants\":17,\"id\":20657466,\"kids\":[20657931,20658070,20657739,20657901,20657671,20658642],\"score\":28,\"time\":1565378248,\"title\":\"Rap Music Ditches Dollars for the Cash App Mobile Payment System\",\"type\":\"story\",\"url\":\"https://www.wsj.com/articles/dont-venmo-iggy-azalea-cash-app-rules-rap-11565191206?mod=rsswn\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "330",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20655017.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"Tomte\",\"descendants\":45,\"id\":20655017,\"kids\":[20655629,20657036,20655506,20655878,20658647,20657056,20656305,20655840],\"score\":188,\"time\":1565363117,\"title\":\"Kubernetes Security Assessment [pdf]\",\"type\":\"story\",\"url\":\"https://github.com/kubernetes/community/blob/master/wg-security-audit/findings/Kubernetes%20Final%20Report.pdf\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "337",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20658069.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"frosted-panel\",\"descendants\":5,\"id\":20658069,\"kids\":[20658354,20658338,20658071],\"score\":21,\"time\":1565383103,\"title\":\"Frosted Glass/Panel Effect, Cross Browser Solution, Vanilla JavaScript and CSS\",\"type\":\"story\",\"url\":\"https://github.com/cryptodescriptor/frosted-panel\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "279",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20653316.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"ericdanielski\",\"descendants\":44,\"id\":20653316,\"kids\":[20653939,20653486,20653500,20653384,20653628,20654457,20655103,20653611,20653432,20653749,20656666],\"score\":210,\"time\":1565350362,\"title\":\"Open-source firmware\",\"type\":\"story\",\"url\":\"https://mullvad.net/ja/blog/2019/8/7/open-source-firmware-future/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "311",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20653942.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"utkarshkukreti\",\"descendants\":75,\"id\":20653942,\"kids\":[20656101,20656118,20653966,20656370,20655071,20654654,20655109,20657975,20657032,20658499,20656543,20656649,20655342,20654806,20654732,20654556,20655343,20656486,20656888,20655469],\"score\":134,\"time\":1565356350,\"title\":\"Show HN: Tailwind.run â An Online Playground for Tailwind CSS\",\"type\":\"story\",\"url\":\"https://tailwind.run\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "391",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20653278.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"zzeder\",\"descendants\":86,\"id\":20653278,\"kids\":[20654652,20655356,20658321,20654789,20655263,20654659,20656296,20656659,20655238,20656232],\"score\":126,\"time\":1565350022,\"title\":\"Show HN: I built a poker site with Haskell\",\"type\":\"story\",\"url\":\"https://github.com/therewillbecode/haskell-poker\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "300",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20653637.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"puzzlingcaptcha\",\"descendants\":13,\"id\":20653637,\"kids\":[20657967,20658677,20657943,20658167,20658192,20657857],\"score\":41,\"time\":1565353398,\"title\":\"Model-View Catharsis\",\"type\":\"story\",\"url\":\"http://acko.net/blog/model-view-catharsis/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "244",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20654706.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"pseudolus\",\"descendants\":21,\"id\":20654706,\"kids\":[20658769,20658654,20657913,20658274],\"score\":85,\"time\":1565361279,\"title\":\"Climate change: Marine heatwaves kill coral instantly\",\"type\":\"story\",\"url\":\"https://www.bbc.com/news/science-environment-49255642\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "264",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20656104.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"zimpenfish\",\"descendants\":37,\"id\":20656104,\"kids\":[20656901,20656808,20657109,20656120,20656964,20656810],\"score\":59,\"time\":1565369540,\"title\":\"Major power failure affects homes and transport\",\"type\":\"story\",\"url\":\"https://www.bbc.co.uk/news/uk-49300025\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "262",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20646097.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"azhenley\",\"descendants\":6,\"id\":20646097,\"kids\":[20655472,20655692,20655767],\"score\":38,\"time\":1565282611,\"title\":\"That's Interesting (1971) [pdf]\",\"type\":\"story\",\"url\":\"http://info.marshall.usc.edu/faculty/mentoring/Documents/Murray%20Davis.pdf\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "253",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20658529.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"uptown\",\"descendants\":4,\"id\":20658529,\"kids\":[20658705,20658783],\"score\":17,\"time\":1565387736,\"title\":\"The Worldâs Smartest Chimp Has Died\",\"type\":\"story\",\"url\":\"https://www.nytimes.com/2019/08/09/opinion/chimpanzee-sarah.html\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "237",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20643052.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"lordnacho\",\"descendants\":716,\"id\":20643052,\"kids\":[20647222,20643347,20643151,20654564,20645295,20650205,20643265,20644642,20644253,20643321,20643885,20643159,20650342,20643342,20650911,20643406,20643319,20643461,20647578,20648306,20650106,20652105,20654257,20643251,20643150,20649135,20643846,20643352,20644985,20643709,20643563,20651660,20649120,20643174,20643675,20649212,20643985,20648439,20643444,20654840,20651072,20650547,20643139,20658190,20643104,20649284,20646214,20649785,20645311,20648187,20644418,20650390,20645735,20649735,20643149,20645534,20647396,20644760,20643245,20643154,20643962,20646823,20643529,20644942,20643357,20650612,20646424,20644446,20648961,20655110,20655114,20643295,20648540,20646087,20644086,20646031,20653992,20645503,20646006,20646116,20643126,20646212,20643177,20644376,20643829,20654588,20654540,20647424,20645434,20643781,20644576,20644027,20643107,20643950,20650089,20650310,20643470,20649863,20643105,20644009,20643987,20643194,20643493,20648193,20644042,20643306,20645443,20643649,20646715,20645202,20644233,20645246],\"score\":1558,\"time\":1565257763,\"title\":\"The Lonely Work of Moderating Hacker News\",\"type\":\"story\",\"url\":\"https://www.newyorker.com/news/letter-from-silicon-valley/the-lonely-work-of-moderating-hacker-news\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "1273",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20656929.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"shry4ns\",\"descendants\":101,\"id\":20656929,\"kids\":[20658035,20657673,20658343,20657118,20657107,20657135,20658548,20657645,20657639,20658185,20657621,20657521,20658021,20657276,20657812,20658054,20657836,20657820,20657852,20657399,20657937,20657079,20658091],\"score\":242,\"time\":1565374342,\"title\":\"Rice University researchers propose a way to boost solar efficiency\",\"type\":\"story\",\"url\":\"https://polyarch.co/rice-university-research-heat-into-light/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "457",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20654981.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"127001brewer\",\"descendants\":20,\"id\":20654981,\"kids\":[20656476,20655262,20658462,20657115,20655737,20656239,20656908,20655855],\"score\":40,\"time\":1565362937,\"title\":\"High-Tech Solution to Disaster Response May Be Too Good to Be True\",\"type\":\"story\",\"url\":\"https://www.nytimes.com/2019/08/09/us/emergency-response-disaster-technology.html\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "344",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20649031.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"bifrost\",\"descendants\":2,\"id\":20649031,\"kids\":[20658194,20649094],\"score\":10,\"time\":1565300007,\"title\":\"Show HN: HashPlane Attack Map\",\"type\":\"story\",\"url\":\"https://map.hashplane.com/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "192",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20655791.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"psim1\",\"descendants\":32,\"id\":20655791,\"kids\":[20656944,20657125,20657849,20658177,20658170,20656838,20656942,20656297,20656184,20656362],\"score\":54,\"time\":1565367898,\"title\":\"Welcome to Black Hat, where the attendees are the threat\",\"type\":\"story\",\"url\":\"https://www.wsj.com/articles/welcome-to-black-hat-where-the-attendees-are-the-threat-11565343002?mod=rsswn\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "370",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20658214.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"edward\",\"descendants\":0,\"id\":20658214,\"score\":17,\"time\":1565384368,\"title\":\"Holidays are good for workers and companies alike\",\"type\":\"story\",\"url\":\"https://www.economist.com/business/2019/08/08/holidays-are-good-for-workers-and-companies-alike\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "253",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20647646.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"Petiver\",\"descendants\":0,\"id\":20647646,\"score\":9,\"time\":1565291958,\"title\":\"The Way to the Sea\",\"type\":\"story\",\"url\":\"https://granta.com/the-way-to-the-sea/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "165",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20658050.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"mkong1\",\"id\":20658050,\"score\":1,\"time\":1565382877,\"title\":\"GiveCampus (YC S15) Wants a Product Designer Passionate about Education\",\"type\":\"job\",\"url\":\"https://www.givecampus.com/careers\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "195",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20655766.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"wglb\",\"descendants\":2,\"id\":20655766,\"kids\":[20658159,20658006],\"score\":50,\"time\":1565367770,\"title\":\"A journalist discovered and reunited identical twins\",\"type\":\"story\",\"url\":\"https://www.latimes.com/world-nation/story/2019-08-07/how-a-journalist-discovered-and-reunited-identical-twins\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "296",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20657308.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"ewood\",\"descendants\":32,\"id\":20657308,\"kids\":[20658272,20657651,20657880,20657534,20657547,20658843,20657961,20658728,20658236,20658714,20657548,20658516,20658684],\"score\":91,\"time\":1565377072,\"title\":\"Hundreds of exposed Amazon cloud backups found leaking sensitive data\",\"type\":\"story\",\"url\":\"https://techcrunch.com/2019/08/09/aws-ebs-cloud-backups-leak\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "364",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20652695.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"seagullz\",\"descendants\":168,\"id\":20652695,\"kids\":[20653502,20652838,20652867,20653110,20653294,20653336,20653534,20653057,20654845,20653511,20653307,20653620,20654029,20653447,20654455,20653577,20653039,20652851,20653168,20654332,20653060],\"score\":137,\"time\":1565343087,\"title\":\"Americaâs social-media addiction is getting worse\",\"type\":\"story\",\"url\":\"https://www.economist.com/graphic-detail/2019/08/08/americas-social-media-addiction-is-getting-worse\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "463",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20658090.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"kwindla\",\"descendants\":15,\"id\":20658090,\"kids\":[20658425,20658737,20658699,20658382,20658487,20658623],\"score\":35,\"time\":1565383276,\"title\":\"The Suicides in South Korea, and the Suicide of South Korea\",\"type\":\"story\",\"url\":\"http://blog.lareviewofbooks.org/the-korea-blog/suicides-south-korea-suicide-south-korea/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "321",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20658291.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"hvo\",\"descendants\":26,\"id\":20658291,\"kids\":[20658574,20658609,20658895,20658512,20658701,20658689,20658871,20658600,20658781,20658633],\"score\":42,\"time\":1565385159,\"title\":\"A Mexican Hospital, an American Surgeon, and a $5k Check\",\"type\":\"story\",\"url\":\"https://www.nytimes.com/2019/08/09/business/medical-tourism-mexico.html\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "333",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20657224.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"ingve\",\"descendants\":42,\"id\":20657224,\"kids\":[20657686,20658690,20657463,20657751,20658460,20658019,20657878,20657632,20658015],\"score\":64,\"time\":1565376437,\"title\":\"Solar Powered Raspberry Pi Camera\",\"type\":\"story\",\"url\":\"https://kaspars.net/blog/solar-raspberry-pi-camera\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "282",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20657860.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"ph4\",\"descendants\":0,\"id\":20657860,\"score\":9,\"time\":1565381361,\"title\":\"Fine-Tuned Constants\",\"type\":\"story\",\"url\":\"https://plato.stanford.edu/entries/fine-tuning/#FineTuneCons\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "185",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20658125.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"dionmanu\",\"descendants\":9,\"id\":20658125,\"kids\":[20658133,20658851,20658307],\"score\":29,\"time\":1565383569,\"title\":\"Uber imposes engineer hiring freeze as losses mount\",\"type\":\"story\",\"url\":\"https://finance.yahoo.com/news/uber-imposes-engineer-hiring-freeze-as-losses-mount-exclusive-202234064.html\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "305",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20653485.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"danso\",\"descendants\":44,\"id\":20653485,\"kids\":[20658216,20658800,20658061,20658123,20658085,20658186,20658215,20658262,20658139,20658109,20658577],\"score\":46,\"time\":1565351972,\"title\":\"Huntington Parkâs âRoboCopâ stores pedestriansâ faces, scans license plates\",\"type\":\"story\",\"url\":\"https://www.muckrock.com/news/archives/2019/aug/05/california-hp-robocop/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "373",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20653936.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"mmq\",\"descendants\":152,\"id\":20653936,\"kids\":[20654176,20654192,20654365,20654250,20655204,20655104,20655690,20655371,20658650,20654350,20654990,20654477,20655670,20654992,20655240,20657628,20654267,20654352,20654341,20656166,20654363,20654628,20657858,20655870,20657168,20655534,20655497,20655137,20654284,20654510,20654472,20654465,20656096,20655826,20654512,20655427,20655509,20654253,20654744,20656720,20654199,20654535,20654903,20655957,20654568,20656218,20654164,20654146,20654936,20655763,20654619,20654460,20655120,20655028,20654314,20654198,20654527,20654410,20654213],\"score\":192,\"time\":1565356316,\"title\":\"Why Arenât We Talking About LinkedIn?\",\"type\":\"story\",\"url\":\"https://www.nytimes.com/2019/08/08/style/linkedin-social-media.html\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "755",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20656992.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"kgwgk\",\"descendants\":70,\"id\":20656992,\"kids\":[20657149,20657535,20657182,20657409,20657701,20657256,20657317,20657550,20657284,20658280,20657489,20658003,20658012,20657290,20657448,20657177,20657425,20657228,20657197,20657384,20657369,20657473,20658288],\"score\":145,\"time\":1565374804,\"title\":\"CEOs Who Cheat in Bedroom Will Cheat in Boardroom: Study\",\"type\":\"story\",\"url\":\"https://www.bloomberg.com/news/articles/2019-08-09/ceos-who-cheat-on-spouse-twice-as-likely-to-cheat-at-work-study\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "496",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20656223.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"nathan_gold\",\"descendants\":9,\"id\":20656223,\"kids\":[20657343,20657742,20656993],\"score\":60,\"text\":\"We&#x27;re Matt and Nathan, founders of Together (<a href=\\\"https:&#x2F;&#x2F;togetherplatform.com\\\" rel=\\\"nofollow\\\">https:&#x2F;&#x2F;togetherplatform.com</a>). We make an app that manages employee-employee mentoring programs, and that ultimately improves employee career development and company culture.<p>Matt and I met while we were working at the Boston Consulting Group, an unusual workplace that gets a number of things really right. They rank Top 5 on Glassdoor every year for best places to work. The best thing there is the culture of &#x27;non-evaluative&#x27; mentoring. It was common to grab a coffee on a weekly basis with a senior colleague outside your team, talk through what strengths you want to develop, and that conversation would somehow eventually translate into a project together where you worked specifically on those areas. It&#x27;s the reason why we felt our &#x27;personal growth rate&#x27; really took off - someone was always aware of your goals.<p>That got us thinking about whether the experience could be replicable at other companies too, and that&#x27;s why we started Together.<p>We learned that a lot of companies have tried to run mentoring programs but the experience for employees wasn&#x27;t great. Examples: Someone picked your match for you, and it wasn&#x27;t a good fit; your match left the company and no one on the HR team even knew; you had a few sessions but had no clue what to talk about &#x2F; no sense of progress against any goals; as an HR person, you had no visibility into whether the program was working or not<p>Through Together, any employee can voluntarily sign up to be part of their company&#x27;s mentoring program. You can sign up to be a mentor, mentee or both - we&#x27;ve even had VPs enjoy the experience as a mentee. Once you fill out your mentoring profile, the magic is in the learning experience that is personalized just for you:<p>As a mentee, you get a curated list of the top 5 people at your company who signed up and can help you reach your goals. You can be part of one or multiple programs at the same time that focus on different career checkpoints, such as &quot;new manager&quot; or &quot;internship&quot; tracks. With that comes special agendas and content to work through with your mentor&#x2F;mentee\\nYou can track progress to your goals and look back through your personal session history with mentees&#x2F;mentors - and if things aren&#x27;t going as planned, an admin might even proactively reach out to you and see if they can tweak who you&#x27;re working with<p>Many companies run mentoring programs today, but they largely fall flat. That&#x27;s why companies like Disney Studios ask us to help them relaunch in a new and more impactful way.<p>What has been your mentoring experience at work? I&#x27;d love to hear about what worked and what didn&#x27;t! What would you have liked to have? We&#x27;d love ideas for how an app like ours could support the mentoring experience for everyone involved. If youâre interested in launching Together at your workplace, [let us know!](<a href=\\\"https:&#x2F;&#x2F;www.togetherplatform.com&#x2F;join-list\\\" rel=\\\"nofollow\\\">https:&#x2F;&#x2F;www.togetherplatform.com&#x2F;join-list</a>).\",\"time\":1565370223,\"title\":\"Launch HN: Together (YC S19) â App to facilitate employee-employee mentoring\",\"type\":\"story\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "3453",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20656713.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"gmck\",\"descendants\":6,\"id\":20656713,\"kids\":[20656876,20656834,20656969,20656784,20657175],\"score\":15,\"time\":1565373076,\"title\":\"The Benefits of High-Tech Job Growth Donât Trickle Down\",\"type\":\"story\",\"url\":\"https://www.citylab.com/equity/2019/08/technology-employment-multiplier-effect-inequality-research/595291/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "324",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20654625.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"bookofjoe\",\"descendants\":37,\"id\":20654625,\"kids\":[20655412,20655025,20656498,20655070,20655029,20655288],\"score\":36,\"time\":1565360804,\"title\":\"Dark Matter from Scalar Field Fluctuations\",\"type\":\"story\",\"url\":\"https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.061302\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "286",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20655681.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"dopeboy\",\"descendants\":83,\"id\":20655681,\"kids\":[20657139,20655983,20657762,20655803,20655970,20655792,20658593,20655842,20655915,20657983,20655882,20657764,20656030,20656874,20656026,20657926,20656083,20657210,20655724,20657207],\"score\":84,\"time\":1565367261,\"title\":\"Show HN: I'm building a robot that cuts hair, starting with beard trims [video]\",\"type\":\"story\",\"url\":\"https://www.youtube.com/watch?v=6CmHuTKToag&feature=youtu.be\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "439",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20656155.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"onetimemanytime\",\"descendants\":22,\"id\":20656155,\"kids\":[20656939,20658724,20656541,20656434,20656413,20656426],\"score\":64,\"time\":1565369772,\"title\":\"M44 (Cyanide Device)\",\"type\":\"story\",\"url\":\"https://en.wikipedia.org/wiki/M44_(cyanide_device)\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "252",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20653451.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"jg23\",\"descendants\":16,\"id\":20653451,\"kids\":[20656763,20655127,20653562],\"score\":40,\"time\":1565351709,\"title\":\"Schoolchildren in China work overnight to produce Amazon Alexa devices\",\"type\":\"story\",\"url\":\"https://www.theguardian.com/global-development/2019/aug/08/schoolchildren-in-china-work-overnight-to-produce-amazon-alexa-devices\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "343",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20655821.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"Hooke\",\"descendants\":16,\"id\":20655821,\"kids\":[20657235,20658467,20656729,20656473,20656445,20656766],\"score\":50,\"time\":1565368055,\"title\":\"In Praise of Samuel R. Delany\",\"type\":\"story\",\"url\":\"https://www.nytimes.com/2019/08/08/books/samuel-delany-jordy-rosenberg.html\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "276",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20657054.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"el_duderino\",\"descendants\":27,\"id\":20657054,\"kids\":[20657990,20657517,20657402,20657381,20657513,20657630,20657231,20657953,20657598,20657332,20657339,20657530,20657709,20657321,20657745],\"score\":66,\"time\":1565375173,\"title\":\"YouTube lets biggest stars off the hook for breaking rules, moderators say\",\"type\":\"story\",\"url\":\"https://arstechnica.com/tech-policy/2019/08/youtube-lets-biggest-stars-off-the-hook-for-breaking-rules-moderators-say/\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "451",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20649470.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"tareqak\",\"descendants\":270,\"id\":20649470,\"kids\":[20649954,20651812,20649659,20651210,20658360,20650809,20649994,20651015,20653265,20654172,20649969,20655502,20651691,20650352,20653317,20652168,20650327,20654063,20650432,20650915,20651061,20651053,20649974,20656046,20652084,20649615,20650863,20653515,20650754,20649888,20652075,20655316,20651052,20651438,20651019,20650102,20650011,20652772,20649837],\"score\":737,\"time\":1565302899,\"title\":\"Apple Confirms $1M Reward for Anyone Who Can Hack an iPhone\",\"type\":\"story\",\"url\":\"https://www.forbes.com/sites/thomasbrewster/2019/08/08/apple-confirms-1-million-reward-for-hackers-who-find-serious-iphone-vulnerabilities/#7b31cc2d3948\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "684",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20656680.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"startupfounder\",\"descendants\":38,\"id\":20656680,\"kids\":[20658698,20656913,20657725,20658249,20658437,20657566,20658345,20658183,20656935,20657793,20658207],\"score\":171,\"time\":1565372891,\"title\":\"Coinbase: Responding to Firefox 0-days in the wild\",\"type\":\"story\",\"url\":\"https://blog.coinbase.com/responding-to-firefox-0-days-in-the-wild-d9c85a57f15b\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "356",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://hacker-news.firebaseio.com/v0/item/20653394.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"by\":\"lelf\",\"descendants\":0,\"id\":20653394,\"score\":96,\"time\":1565351202,\"title\":\"The Erlang Rationale\",\"type\":\"story\",\"url\":\"https://rvirding.blogspot.com/2019/01/the-erlang-rationale.html\"}",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "date": "Fri, 09 Aug 2019 23:01:08 GMT",
+        "server": "nginx",
+        "content-length": "190",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "strict-transport-security": "max-age=31556926; includeSubDomains; preload"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  }
+]
