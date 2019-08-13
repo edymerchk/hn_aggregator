@@ -2,6 +2,7 @@ defmodule HnAggregator.StoryRefresher do
   alias HnAggregator.HackerNews.StoryFetcher
   alias HnAggregator.StoriesServer
   alias HnAggregator.StoryParser
+  alias HnAggregator.Story
 
   @max_stories 50
 
@@ -14,7 +15,13 @@ defmodule HnAggregator.StoryRefresher do
 
     story_raw
     |> StoryParser.parse()
+    |> broadcast_new_story()
     |> StoriesServer.put()
+  end
+
+  def broadcast_new_story(%Story{} = story) do
+    HnAggregatorWeb.Endpoint.broadcast("stories", "update", story)
+    story
   end
 
   defp stories_ids do
