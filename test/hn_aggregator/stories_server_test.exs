@@ -35,6 +35,17 @@ defmodule HnAggregator.StoriesServerTest do
     end
   end
 
+  describe "get_paginated_list/1" do
+    test "returns the list of stories stored using pagination" do
+      build_list(50, :story)
+      |> Enum.each(fn story -> StoriesServer.put(story) end)
+
+      result = StoriesServer.get_paginated_list(1)
+
+      assert length(result) == 10
+    end
+  end
+
   describe "get_story/1" do
     test "returns the story with an specific id", %{story: story} do
       StoriesServer.put(story)

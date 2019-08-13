@@ -3,7 +3,7 @@ defmodule HnAggregatorWeb.StoryChannel do
 
   alias HnAggregator.StoriesServer
 
-  def join("stories", payload, socket) do
+  def join("stories", _payload, socket) do
     {:ok, StoriesServer.get_list(), socket}
   end
 end

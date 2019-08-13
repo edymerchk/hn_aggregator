@@ -1,5 +1,4 @@
 defmodule HnAggregator.Story do
-  # TODO: review
   @enforce_keys [:id, :title]
 
   defstruct [
@@ -12,6 +11,4 @@ defmodule HnAggregator.Story do
     :title,
     :url
   ]
-
-  # TODO: @type spec
 end

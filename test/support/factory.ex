@@ -5,7 +5,7 @@ defmodule HnAggregator.Factory do
     %HnAggregator.Story{
       by: "edymerchk",
       descendants: 10,
-      id: 123,
+      id: sequence(:id, &"#{&1}"),
       kids: [
         456,
         789

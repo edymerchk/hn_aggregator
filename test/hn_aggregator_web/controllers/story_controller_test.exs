@@ -13,7 +13,7 @@ defmodule HnAggregatorWeb.StoryControllerTest do
       StoriesServer.put(story_1)
       StoriesServer.put(story_2)
 
-      conn = get(conn, story_path(conn, :index))
+      conn = get(conn, "/api/stories?page=1")
 
       result = json_response(conn, 200)["stories"]
 

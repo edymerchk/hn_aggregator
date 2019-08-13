@@ -3,11 +3,10 @@ defmodule HnAggregatorWeb.StoryController do
 
   alias HnAggregator.StoriesServer
 
-  def index(conn, _params) do
-    render(conn, "index.json", stories: StoriesServer.get_list())
+  def index(conn, %{"page" => page}) do
+    render(conn, "index.json", stories: StoriesServer.get_paginated_list(String.to_integer(page)))
   end
 
-  # TODO: handle 404
   def show(conn, %{"id" => id}) do
     story = String.to_integer(id) |> StoriesServer.get_story()
     render(conn, "show.json", story: story)
